@@ -31,8 +31,6 @@ The website doesn't request an api, means we have to inspect the source code.
 
 - `index.js`
 
-  flag location:
-
 ```js
 const flag = fs.readFileSync("./flag.txt", "utf8").trim();
 ```
@@ -67,7 +65,7 @@ app.get("/bot", async (req, res) => {
 });
 ```
 
-source code: [bot.js](src/bot.js)
+- `bot.js`
 
 the bot checks if url starts with `http://` before visiting it and sets the cookie value as the flag
 
