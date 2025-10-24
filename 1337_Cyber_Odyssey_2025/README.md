@@ -5,3 +5,4 @@
 | Challenge                                 | Category | Points |
 | ----------------------------------------- | -------- | ------ |
 | [credentiallessxss](./credentiallessxss/) | Web      | 432    |
+| [Pipeline](./pipeline)                    | Web      | 451    |

@@ -1,0 +1,11 @@
+{
+  "name": "ctf-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "http-parser-js": "0.5.8"
+  }
+}
