@@ -19,7 +19,9 @@
 ### Observation
 
 In Server2, by requesting `/admin/flag` the server will only check if the JWT is generated with a valid secret and if role is admin.
+
 And `/debug/fetch` will trust requests that has x-forwarded-for header equals to 127.0.0.1.
+
 We can use SSRF to access Server1 and obtain JWT secret, then generate a valid JWT token and use it to access `/admin/flag`. Easy Right?
 
 #### The missing piece
