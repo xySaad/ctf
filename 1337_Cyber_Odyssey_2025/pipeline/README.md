@@ -81,7 +81,7 @@ printf '\r\nGET /debug/fetch?url=http://localhost:5000/.well-known/jwks.json HTT
 
 - `new URL(checkPath)` will throw an error since 65536 is bigger than the maximum allowed port 65535
 
-### Flag (no idea)
+### Flag
 
 the previous payload will let us obtain the JWT secret (the field 'n' from the JSON response).
 
