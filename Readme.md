@@ -1,4 +1,4 @@
-# A collection of write-ups from CTFs I participated in.
+# CTFs I participated in.
 
 | CTF                                      | Organized by | Year | Link                                   | Team     | Rank | Division |
 | ---------------------------------------- | ------------ | ---- | -------------------------------------- | -------- | ---- | -------- |
